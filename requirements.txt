@@ -1,7 +1,7 @@
 docx==0.2.4
 google_trans_new==1.1.9
 googletrans==4.0.0rc1
-matplotlib==3.7.0
+matplotlib
 nltk==3.8.1
 numpy==1.23.5
 openai==0.26.5
