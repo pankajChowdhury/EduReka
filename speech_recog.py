@@ -2,9 +2,11 @@
 import streamlit as st
 import whisper
 import nltk
+nltk.download('punkt')
 import pickle
 from nltk.corpus import stopwords
 nltk.download('stopwords') #Getting all stopwords defined in NLTK
+
 from nltk.tokenize import word_tokenize
 from trans import translate_audio
 
