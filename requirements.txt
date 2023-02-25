@@ -9,6 +9,7 @@ openai_whisper
 pandas
 Pillow
 python_docx
+py-espeak-ng
 pyttsx3
 SpeechRecognition
 streamlit
