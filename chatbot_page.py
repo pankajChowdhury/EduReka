@@ -8,8 +8,8 @@ def show_chatbot_page():
     st.title("EduReka")
     st.subheader("Welcome to AI Based Chatting Interface")
     st.title("")
-    #API Key for OpenAI
-    #API_KEY="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"
+   
+   
     #Creating Environment
     os.environ['OPENAI_Key']=st.secrets["API_KEY"]
     openai.api_key=os.environ['OPENAI_Key']
