@@ -196,10 +196,10 @@ Here's a quick guide to help you get started:
 *Note: Keep your API key confidential and do not share it with anyone. Also, make sure to follow the OpenAI API usage guidelines to avoid any misuse of the API.*
 
 ### **Run on local server**
-1. Clone our github [repo](https://github.com/pankajChowdhury/EDU-REKA.git)
+1. Clone our github [repo](https://github.com/pankajChowdhury/EduReka.git)
 
 ```bash
-git clone https://github.com/pankajChowdhury/EDU-REKA.git
+git clone https://github.com/pankajChowdhury/EduReka.git
 ```
 2. Install dependencies
 
