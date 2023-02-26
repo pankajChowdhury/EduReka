@@ -14,6 +14,8 @@
 ---
 ### 🎥 Check out our [demo video](https://vimeo.com/802227141)
 ---
+### 🖥️ Also Check out our [presentation](https://drive.google.com/file/d/1LvUeCPEpvFY3n_3TB3fNRsLBoyCm4KTE/view?usp=sharing)
+---
 ## Abstract
 
 - The objective of this project is to create a AI Integrated Educational Platform named [Edureka](https://ai-based-educational-platform-teamagastya.streamlit.app/) , which is intended to assist students in getting access to various educational resources like courses, notes etc. very easily though **smart features like auto-recommendation, audio-search(in non-english languages), chat-gpt service and multi-linguistic document conversion**. The application employs ML algorithms like **Cosine Similarity Algorithm** for accurate recommendation,**audio-processing** for speech-to-text conversion and **NLP techniques** like text extraction, preprocessing,etc for accurate text-translation. The targeted audience for this project are **students worldwide who face difficulties in searching courses by typing manually(may be disabled students or those who are uncomfortable with English keyboards) and those non-English students who find difficulties in understanding their english written notes or other documents.**
@@ -64,6 +66,8 @@ Our Application offers several smart features. for students. More details on eac
  - This feature automatically converts the English-written notes of the educator into various languages.
  
  - By doing so, we assist the non-English students to get access of notes in any language they are comfortable with.
+![Screenshot from 2023-02-25 17-05-17](https://user-images.githubusercontent.com/104211567/221439826-2fcf0b4b-e30d-4800-9bd9-da0acca4150b.png)
+
 ---
 ## Workflow
 - The workflow for **Course Recommendationation Engine** is: 
@@ -111,13 +115,13 @@ Our Application offers several smart features. for students. More details on eac
   3. The translated text is then written in a new file and is provided for the user to download.
   
   
-  
+ 
+
 *Text extraction refers to the process of extracting relevant text data from a given source, such as a PDF document, web page, or image.
 
 *Vectorization is the process of converting text data into a numerical vector representation, allowing it to be processed and analyzed using mathematical algorithms. 
  
-
-
+ ![Screenshot from 2023-02-25 16-59-24](https://user-images.githubusercontent.com/104211567/221439721-050f2748-bc0c-40b9-9ca4-bbbc3c72c2ed.png)
 
 
 ----
@@ -147,7 +151,12 @@ Our Application offers several smart features. for students. More details on eac
 
 - [**OpenAI**](https://openai.com): OpenAI is known for its advanced language models such as GPT-3, which provide developers with powerful natural language processing capabilities for a wide range of applications. Their language models can perform tasks such as text completion, translation, and question-answering with impressive accuracy.
 
+### AI Models:
 
+- [**model-large**](https://colab.research.google.com/drive/1QtPpMV5bMebarhQesjozg7BmEZPVNHry?usp=sharing): This AI model was developed by us for the course recommendation engine. It can be easily extracted by running dump method of pickle library in the link.It was **trained with 20,000 data entries** and hence gives a remarkable accuracy.However, it takes some time to load in low-end PCs due to its **large file size of 3.5 GB.**
+
+- [**model-small**](https://colab.research.google.com/drive/1S1z-cXiS4eS_itC9yRJ8nQg2Ukdo7pLw?usp=sharing): The same AI model when trained with **sufficient data (around 1200 data entries)** gives a satisfying result and **file size also reduces exponentially making it compatible for low-end PCs.**
+Both the Models were developed for future purposes.
 ----
 
 ## Open-source Goods used:
@@ -196,7 +205,7 @@ Here's a quick guide to help you get started:
 *Note: Keep your API key confidential and do not share it with anyone. Also, make sure to follow the OpenAI API usage guidelines to avoid any misuse of the API.*
 
 ### **Run on local server**
-1. Clone our github [repo](https://github.com/pankajChowdhury/EduReka.git)
+1. Download the zip file from [here](https://drive.google.com/file/d/1Fst3FGglAHzbof49KWVCybtm-YeUN16e/view?usp=sharing) and Extract them in your PC. Then, Open all the files in it in an IDE like VS Code. OR you may also Clone our github [repo](https://github.com/pankajChowdhury/EduReka.git)
 
 ```bash
 git clone https://github.com/pankajChowdhury/EduReka.git
@@ -224,7 +233,7 @@ sudo apt-get install ffmpeg
 
 👤 **Agastya Team**
 
-* [Pankaj Chowdhury]
-* [Ajay Chowdhury]
-* [Bikram Ghosh]
+* Pankaj Chowdhury, Department of Computer Science and Engineering, Jadavpur Univeristy, Kolkata
+* Ajay Chowdhury, Department of Computer Science and Engineering, MAKAUT(W.B)
+* Bikram Ghosh, Department of Mechanical Engineering, Jadavpur University, Kolkata
 
