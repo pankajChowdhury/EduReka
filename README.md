@@ -36,36 +36,59 @@ Our Application offers several smart features. for students. More details on eac
 
 - This feature runs over an Artificial Intelligence Model which predicts five most-likely-to-buy courses based on user's earlier bought courses.
 
-- Auto-suggesting courses not only helps students to save time looking for a course in a bush of millions but also helps the platform to sell more courses and hence scale.
+- Auto-suggesting courses not only **helps students to save time looking for a course** in a bush of millions but also **helps the platform to sell more courses and hence scale more.**
+ 
+![Screenshot from 2023-02-25 16-59-24](https://user-images.githubusercontent.com/104211567/221439721-050f2748-bc0c-40b9-9ca4-bbbc3c72c2ed.png)
+
+![Screenshot from 2023-02-25 16-59-30](https://user-images.githubusercontent.com/104211567/221728649-6bf3f837-eafb-4a2f-812a-981339269cf5.png)
+
 
 2. **Audio Search Feature:**
 
-- This feature allows the users,especially those who are disabled or find difficulty in typing over keyboards, to search courses with speech.
+- This feature allows the users,especially those **who are disabled or find difficulty in typing over keyboards,** to search courses with speech.
 
-- The feature is designed to support multiple languages and gives impressive results in less time.
+- The feature is designed to **support multiple languages and gives impressive results in less time.**
 
 - The accuracy obtained in the process is also very promising. We have provided two .wav files in the codebase for testing.
 
-3. **Multi Language Support:**
+![Screenshot from 2023-02-25 16-59-54](https://user-images.githubusercontent.com/104211567/221728825-202d468f-db00-49d5-a532-74c31cf2f67b.png)
 
- - This feature allows the users to search courses in different non-English languages.
  
- - Both translation and speech-to-text feature is implemented in the process.
  
- - This feature can surely prove to be the basis of future technologies making AI able to translate entire course videos or class notes with impressive accuracy.
-4.  **AI Integrated Chat Service:**
+3.  **AI Integrated Chat Service:**
 
- - Unlike other basic chatbot service, this feature helps user to get variety of answers over a question rather than just the pre-defines ones.
+ - Unlike other basic chatbot service, this feature helps user to get **variety of answers over a question** rather than just the pre-defines ones.
  
  - This was made possible by integrating the very famous Chat-GPT service with the app using API endpoints.
  
-5. **Notes Rendering Interface:**
+
+![Screenshot from 2023-02-25 17-00-34](https://user-images.githubusercontent.com/104211567/221729063-efdbed9e-0b27-4bf0-a563-9a29d6aaba15.png) 
+ 
+ 
+ 
+4. **Notes Rendering Interface:**
 
  - This feature allows educators or creators to upload notes of lectures for their students. 
  
  - This feature automatically converts the English-written notes of the educator into various languages.
  
- - By doing so, we assist the non-English students to get access of notes in any language they are comfortable with.
+ - By doing so, we assist the **non-English students** to get access of notes in any language they are comfortable with.
+ 
+ 
+![Screenshot from 2023-02-25 17-00-56](https://user-images.githubusercontent.com/104211567/221729131-746a90df-aa0e-40a3-974f-0b2934150839.png)
+
+
+5. **Multi Language Support:**
+
+ - This feature allows the users to search courses in different **non-English languages even in audio format.**
+ 
+ - Allows students to get **class-notes in any language they want.**
+ 
+ - Both translation and speech-to-text feature is implemented in the process.
+ 
+ - This feature can surely prove to be the **basis of future technologies** making AI able to translate entire course videos or class notes with impressive accuracy.
+
+ 
 ![Screenshot from 2023-02-25 17-05-17](https://user-images.githubusercontent.com/104211567/221439826-2fcf0b4b-e30d-4800-9bd9-da0acca4150b.png)
 
 ---
@@ -120,8 +143,6 @@ Our Application offers several smart features. for students. More details on eac
 *Text extraction refers to the process of extracting relevant text data from a given source, such as a PDF document, web page, or image.
 
 *Vectorization is the process of converting text data into a numerical vector representation, allowing it to be processed and analyzed using mathematical algorithms. 
- 
- ![Screenshot from 2023-02-25 16-59-24](https://user-images.githubusercontent.com/104211567/221439721-050f2748-bc0c-40b9-9ca4-bbbc3c72c2ed.png)
 
 
 ----
@@ -178,11 +199,11 @@ Here's a quick guide to help you get started:
 
 3. On Course Recommendation Page, simply select some courses and then click BUY button.On the basis of bought courses, our model will recommend you other good ones.
 
-4. On Audio Search, select a language and just upload an audio asking for a course (sample audios already given in codebase in .wav format) and wait. You will be provided with some courses found.
+4. On Audio Search, select a language and just upload an audio asking for a course (sample audios already given in codebase in .wav format - **example.wav** and **examplehindi.wav**) and wait. You will be provided with some courses found.
 
 5. On Chatting Interface, just type your question ad click ASK NOW button. You will get the answer.
 
-6. On Notes Rendering Page, just upload your english-written documents in .docx format(notes.docx provided in codebase for reference).Then, select the language you want your notes to be in and wait. The system quickly shows you the download button to download.
+6. On Notes Rendering Page, just upload your english-written documents in .docx format(Sample docx file named **notes.docx** provided in codebase for reference).Then, select the language you want your notes to be in and wait. The system quickly shows you the download button to download.
 
 
 
